@@ -72,7 +72,7 @@
           <li class="nav-item"><a class="nav-link" href="#beneficios">Benefícios</a></li>
           <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
         </ul>
-        <a href="/login.html" class="btn btn-outline-primary">Login</a>
+        <a href="/login.php" class="btn btn-outline-primary">Login</a>
       </div>
     </div>
   </nav>

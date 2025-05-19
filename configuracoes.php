@@ -22,7 +22,7 @@
           <nav class="flex-grow-1">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link text-white" href="dashboard.">
+                <a class="nav-link text-white" href="dashboard.php">
                   <i class="bi bi-house-door me-2"></i>
                   Início
                 </a>

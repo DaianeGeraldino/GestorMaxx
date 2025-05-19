@@ -59,7 +59,6 @@
 </head>
 <body>
 
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
     <div class="container">
       <a class="navbar-brand" href="#">GESTORMAX</a>
@@ -77,7 +76,6 @@
     </div>
   </nav>
 
-  <!-- Hero -->
   <section class="hero">
     <div class="container">
       <h1>Simplifique seu controle de estoque</h1>
@@ -86,7 +84,6 @@
     </div>
   </section>
 
-  <!-- Sobre Nós -->
   <section id="sobre" class="sobre">
     <div class="container text-center">
       <h2 class="section-title">Quem Somos</h2>
@@ -98,7 +95,6 @@
     </div>
   </section>
 
-  <!-- Benefícios -->
   <section id="beneficios" class="beneficios bg-light">
     <div class="container">
       <h2 class="section-title text-center">Benefícios</h2>
@@ -119,7 +115,6 @@
     </div>
   </section>
 
-  <!-- Chamada para ação -->
   <section id="contato" class="text-center py-5">
     <div class="container">
       <h2 class="mb-3">Fale com a GESTORMAX</h2>
@@ -128,7 +123,6 @@
     </div>
   </section>
 
-  <!-- Rodapé -->
   <footer class="footer">
     <div class="container">
       <p class="mb-0">&copy; 2025 GESTORMAX. Todos os direitos reservados.</p>

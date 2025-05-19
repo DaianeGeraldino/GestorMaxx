@@ -22,43 +22,44 @@
           <nav class="flex-grow-1">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link text-white" href="dashboard.html">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="dashboard.php">
                   <i class="bi bi-house-door me-2"></i>
                   Início
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="produtos-lista.html">
+                <a class="nav-link text-white" href="produtos-lista.php">
                   <i class="bi bi-box-seam me-2"></i>
                   Produtos
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="produtos-cadastro.html">
+                <a class="nav-link text-white" href="produtos-cadastro.php">
                   <i class="bi bi-plus-circle me-2"></i>
                   Cadastrar produto
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="vendas.html">
+                <a class="nav-link text-white" href="vendas.php">
                   <i class="bi bi-cart me-2"></i>
                   Vendas
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-white" href="usuarios-lista.html">
+                <a class="nav-link text-white" href="usuarios-lista.php">
                   <i class="bi bi-people me-2"></i>
                   Usuários
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="estatisticas.html">
+                <a class="nav-link text-white" href="estatisticas.php">
                   <i class="bi bi-bar-chart-line me-2"></i>
                   Estatísticas
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="configuracoes.html">
+                <a class="nav-link active text-white" href="configuracoes.php">
                   <i class="bi bi-gear me-2"></i>
                   Configurações
                 </a>
@@ -70,7 +71,7 @@
             <div class="d-flex justify-content-between align-items-center mb-3">
               <span class="text-white" id="user-name">Administrador</span>
             </div>
-            <button id="logout-btn" class="btn btn-outline-light w-100" onclick="location.href='login.html'">
+            <button id="logout-btn" class="btn btn-outline-light w-100" onclick="location.href='login.php'">
               <i class="bi bi-box-arrow-right me-2"></i>
               Sair
             </button>
@@ -83,7 +84,7 @@
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
           <h1 class="h2">Editar Usuário</h1>
           <div class="btn-toolbar mb-2 mb-md-0">
-            <button id="btn-voltar" class="btn btn-outline-secondary me-2" onclick="location.href='usuarios-lista.html'">
+            <button id="btn-voltar" class="btn btn-outline-secondary me-2" onclick="location.href='usuarios-lista.php'">
               <i class="bi bi-arrow-left me-1"></i>Voltar
             </button>
           </div>
@@ -143,7 +144,7 @@
               </div>
               
               <div class="d-flex justify-content-end mt-4 gap-2">
-                <button type="button" id="btn-cancelar-edicao" class="btn btn-outline-secondary" onclick="location.href='usuarios-lista.html'">Cancelar</button>
+                <button type="button" id="btn-cancelar-edicao" class="btn btn-outline-secondary" onclick="location.href='usuarios-lista.php'">Cancelar</button>
                 <button type="submit" class="btn btn-primary">Salvar Alterações</button>
               </div>
             </form>
